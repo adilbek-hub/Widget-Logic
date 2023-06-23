@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void saveTextValue() {
     if (_formKey.currentState!.validate()) {
-      final String textValue = _textEditingController.text;
+      final textValue = _textEditingController.text;
       if (textValue.isNotEmpty) {
         Navigator.push(
           context,
