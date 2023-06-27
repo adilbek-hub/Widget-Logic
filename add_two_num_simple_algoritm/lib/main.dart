@@ -66,7 +66,7 @@ class _SimpleAlgoritmState extends State<SimpleAlgoritm> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.refresh),
+        child: const Icon(Icons.refresh),
         onPressed: () {
           setState(() {
             num1 = 0;
