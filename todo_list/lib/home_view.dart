@@ -39,7 +39,7 @@ class _HomeViewState extends State<HomeView> {
                   child: const Text('Чыгуу'))
             ],
           );
-        });
+        }); 
   }
 
   @override

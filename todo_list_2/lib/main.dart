@@ -37,7 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
       todos.add('New Task');
     });
   }
-
+//это метод, который используется для удаления задачи из списка по указанному индексу.
+//todos.removeAt(index) - это вызов метода removeAt() для списка todos. Он удаляет
+// элемент списка по указанному индексу.
   void remoteTodo(int index) {
     setState(() {
       todos.removeAt(index);
